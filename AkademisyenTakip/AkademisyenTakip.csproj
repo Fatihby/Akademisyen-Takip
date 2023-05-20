@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F6B4263-EDE2-4334-AC5E-0BB96E9E7EB1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DouYonetim</RootNamespace>
+    <AssemblyName>DouYonetim</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGauge">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextBox">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>..\..\..\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBaseClass.cs" />
+    <Compile Include="KullanıcıDenetimi\AkademisyenSil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\AkademisyenSil.Designer.cs">
+      <DependentUpon>AkademisyenSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\GunBazliArama.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\GunBazliArama.Designer.cs">
+      <DependentUpon>GunBazliArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\IzinEkleUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\IzinEkleUC.Designer.cs">
+      <DependentUpon>IzinEkleUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\ProgramBazlıArama.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\ProgramBazlıArama.Designer.cs">
+      <DependentUpon>ProgramBazlıArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\TariheGoreArama.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\TariheGoreArama.Designer.cs">
+      <DependentUpon>TariheGoreArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\İdariİzinEkle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\İdariİzinEkle.Designer.cs">
+      <DependentUpon>İdariİzinEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secim Ekranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secim Ekranı.Designer.cs">
+      <DependentUpon>Secim Ekranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YonetimPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YonetimPaneli.Designer.cs">
+      <DependentUpon>YonetimPaneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\araUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\araUC.Designer.cs">
+      <DependentUpon>araUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\EkleUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\EkleUC.Designer.cs">
+      <DependentUpon>EkleUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\GuncellestirUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullanıcıDenetimi\GuncellestirUC.Designer.cs">
+      <DependentUpon>GuncellestirUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıDenetimi\AkademisyenSil.resx">
+      <DependentUpon>AkademisyenSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıDenetimi\GunBazliArama.resx">
+      <DependentUpon>GunBazliArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıDenetimi\IzinEkleUC.resx">
+      <DependentUpon>IzinEkleUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıDenetimi\ProgramBazlıArama.resx">
+      <DependentUpon>ProgramBazlıArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıDenetimi\TariheGoreArama.resx">
+      <DependentUpon>TariheGoreArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıDenetimi\İdariİzinEkle.resx">
+      <DependentUpon>İdariİzinEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secim Ekranı.resx">
+      <DependentUpon>Secim Ekranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YonetimPaneli.resx">
+      <DependentUpon>YonetimPaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıDenetimi\araUC.resx">
+      <DependentUpon>araUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıDenetimi\EkleUC.resx">
+      <DependentUpon>EkleUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıDenetimi\GuncellestirUC.resx">
+      <DependentUpon>GuncellestirUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

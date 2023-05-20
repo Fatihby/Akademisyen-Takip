@@ -1,0 +1,687 @@
+﻿namespace DouYonetim.KullanıcıDenetimi
+{
+    partial class EkleUC
+    {
+        /// <summary> 
+        ///Gerekli tasarımcı değişkeni.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        ///Kullanılan tüm kaynakları temizleyin.
+        /// </summary>
+        ///<param name="disposing">yönetilen kaynaklar dispose edilmeliyse doğru; aksi halde yanlış.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Bileşen Tasarımcısı üretimi kod
+
+        /// <summary> 
+        /// Tasarımcı desteği için gerekli metot - bu metodun 
+        ///içeriğini kod düzenleyici ile değiştirmeyin.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EkleUC));
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.bolumcombobox = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.mailadresi_txtbox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.telno_txtbox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.soyad_txtbox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.ad_txtbox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.ekle_btn = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.aiguncombobox = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.idtxtbox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.isebaslangic = new Bunifu.UI.WinForms.BunifuDatePicker();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // bunifuPictureBox1
+            // 
+            this.bunifuPictureBox1.AllowFocused = false;
+            this.bunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuPictureBox1.AutoSizeHeight = true;
+            this.bunifuPictureBox1.BorderRadius = 62;
+            this.bunifuPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox1.Image")));
+            this.bunifuPictureBox1.IsCircle = true;
+            this.bunifuPictureBox1.Location = new System.Drawing.Point(317, 16);
+            this.bunifuPictureBox1.Name = "bunifuPictureBox1";
+            this.bunifuPictureBox1.Size = new System.Drawing.Size(125, 125);
+            this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuPictureBox1.TabIndex = 17;
+            this.bunifuPictureBox1.TabStop = false;
+            this.bunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            // 
+            // bolumcombobox
+            // 
+            this.bolumcombobox.BackColor = System.Drawing.Color.Transparent;
+            this.bolumcombobox.BackgroundColor = System.Drawing.Color.White;
+            this.bolumcombobox.BorderColor = System.Drawing.Color.Silver;
+            this.bolumcombobox.BorderRadius = 1;
+            this.bolumcombobox.Color = System.Drawing.Color.Silver;
+            this.bolumcombobox.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.bolumcombobox.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.bolumcombobox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.bolumcombobox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.bolumcombobox.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.bolumcombobox.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.bolumcombobox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.bolumcombobox.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.bolumcombobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.bolumcombobox.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.bolumcombobox.FillDropDown = true;
+            this.bolumcombobox.FillIndicator = false;
+            this.bolumcombobox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bolumcombobox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bolumcombobox.ForeColor = System.Drawing.Color.Black;
+            this.bolumcombobox.FormattingEnabled = true;
+            this.bolumcombobox.Icon = null;
+            this.bolumcombobox.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.bolumcombobox.IndicatorColor = System.Drawing.Color.Gray;
+            this.bolumcombobox.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.bolumcombobox.ItemBackColor = System.Drawing.Color.White;
+            this.bolumcombobox.ItemBorderColor = System.Drawing.Color.White;
+            this.bolumcombobox.ItemForeColor = System.Drawing.Color.Black;
+            this.bolumcombobox.ItemHeight = 26;
+            this.bolumcombobox.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.bolumcombobox.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.bolumcombobox.ItemTopMargin = 3;
+            this.bolumcombobox.Location = new System.Drawing.Point(307, 150);
+            this.bolumcombobox.Name = "bolumcombobox";
+            this.bolumcombobox.Size = new System.Drawing.Size(145, 32);
+            this.bolumcombobox.TabIndex = 14;
+            this.bolumcombobox.Text = "Bölüm";
+            this.bolumcombobox.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.bolumcombobox.TextLeftMargin = 5;
+            this.bolumcombobox.SelectedIndexChanged += new System.EventHandler(this.bolumcombobox_SelectedIndexChanged);
+            // 
+            // mailadresi_txtbox
+            // 
+            this.mailadresi_txtbox.AcceptsReturn = false;
+            this.mailadresi_txtbox.AcceptsTab = false;
+            this.mailadresi_txtbox.AnimationSpeed = 200;
+            this.mailadresi_txtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.mailadresi_txtbox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.mailadresi_txtbox.BackColor = System.Drawing.Color.White;
+            this.mailadresi_txtbox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("mailadresi_txtbox.BackgroundImage")));
+            this.mailadresi_txtbox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.mailadresi_txtbox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.mailadresi_txtbox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.mailadresi_txtbox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.mailadresi_txtbox.BorderRadius = 1;
+            this.mailadresi_txtbox.BorderThickness = 1;
+            this.mailadresi_txtbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.mailadresi_txtbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mailadresi_txtbox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.mailadresi_txtbox.DefaultText = "";
+            this.mailadresi_txtbox.FillColor = System.Drawing.Color.White;
+            this.mailadresi_txtbox.HideSelection = true;
+            this.mailadresi_txtbox.IconLeft = null;
+            this.mailadresi_txtbox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.mailadresi_txtbox.IconPadding = 10;
+            this.mailadresi_txtbox.IconRight = null;
+            this.mailadresi_txtbox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.mailadresi_txtbox.Lines = new string[0];
+            this.mailadresi_txtbox.Location = new System.Drawing.Point(65, 208);
+            this.mailadresi_txtbox.MaxLength = 32767;
+            this.mailadresi_txtbox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.mailadresi_txtbox.Modified = false;
+            this.mailadresi_txtbox.Multiline = false;
+            this.mailadresi_txtbox.Name = "mailadresi_txtbox";
+            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.mailadresi_txtbox.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.mailadresi_txtbox.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.mailadresi_txtbox.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.mailadresi_txtbox.OnIdleState = stateProperties4;
+            this.mailadresi_txtbox.Padding = new System.Windows.Forms.Padding(3);
+            this.mailadresi_txtbox.PasswordChar = '\0';
+            this.mailadresi_txtbox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.mailadresi_txtbox.PlaceholderText = "Mail Adresi";
+            this.mailadresi_txtbox.ReadOnly = false;
+            this.mailadresi_txtbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.mailadresi_txtbox.SelectedText = "";
+            this.mailadresi_txtbox.SelectionLength = 0;
+            this.mailadresi_txtbox.SelectionStart = 0;
+            this.mailadresi_txtbox.ShortcutsEnabled = true;
+            this.mailadresi_txtbox.Size = new System.Drawing.Size(164, 37);
+            this.mailadresi_txtbox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.mailadresi_txtbox.TabIndex = 13;
+            this.mailadresi_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.mailadresi_txtbox.TextMarginBottom = 0;
+            this.mailadresi_txtbox.TextMarginLeft = 3;
+            this.mailadresi_txtbox.TextMarginTop = 0;
+            this.mailadresi_txtbox.TextPlaceholder = "Mail Adresi";
+            this.mailadresi_txtbox.UseSystemPasswordChar = false;
+            this.mailadresi_txtbox.WordWrap = true;
+            // 
+            // telno_txtbox
+            // 
+            this.telno_txtbox.AcceptsReturn = false;
+            this.telno_txtbox.AcceptsTab = false;
+            this.telno_txtbox.AnimationSpeed = 200;
+            this.telno_txtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.telno_txtbox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.telno_txtbox.BackColor = System.Drawing.Color.Transparent;
+            this.telno_txtbox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("telno_txtbox.BackgroundImage")));
+            this.telno_txtbox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.telno_txtbox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.telno_txtbox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.telno_txtbox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.telno_txtbox.BorderRadius = 1;
+            this.telno_txtbox.BorderThickness = 1;
+            this.telno_txtbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.telno_txtbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.telno_txtbox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.telno_txtbox.DefaultText = "";
+            this.telno_txtbox.FillColor = System.Drawing.Color.White;
+            this.telno_txtbox.HideSelection = true;
+            this.telno_txtbox.IconLeft = null;
+            this.telno_txtbox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.telno_txtbox.IconPadding = 10;
+            this.telno_txtbox.IconRight = null;
+            this.telno_txtbox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.telno_txtbox.Lines = new string[0];
+            this.telno_txtbox.Location = new System.Drawing.Point(65, 150);
+            this.telno_txtbox.MaxLength = 32767;
+            this.telno_txtbox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.telno_txtbox.Modified = false;
+            this.telno_txtbox.Multiline = false;
+            this.telno_txtbox.Name = "telno_txtbox";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.telno_txtbox.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.telno_txtbox.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.telno_txtbox.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.Empty;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.telno_txtbox.OnIdleState = stateProperties8;
+            this.telno_txtbox.Padding = new System.Windows.Forms.Padding(3);
+            this.telno_txtbox.PasswordChar = '\0';
+            this.telno_txtbox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.telno_txtbox.PlaceholderText = "Telefon Numarası";
+            this.telno_txtbox.ReadOnly = false;
+            this.telno_txtbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.telno_txtbox.SelectedText = "";
+            this.telno_txtbox.SelectionLength = 0;
+            this.telno_txtbox.SelectionStart = 0;
+            this.telno_txtbox.ShortcutsEnabled = true;
+            this.telno_txtbox.Size = new System.Drawing.Size(164, 37);
+            this.telno_txtbox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.telno_txtbox.TabIndex = 12;
+            this.telno_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.telno_txtbox.TextMarginBottom = 0;
+            this.telno_txtbox.TextMarginLeft = 3;
+            this.telno_txtbox.TextMarginTop = 0;
+            this.telno_txtbox.TextPlaceholder = "Telefon Numarası";
+            this.telno_txtbox.UseSystemPasswordChar = false;
+            this.telno_txtbox.WordWrap = true;
+            // 
+            // soyad_txtbox
+            // 
+            this.soyad_txtbox.AcceptsReturn = false;
+            this.soyad_txtbox.AcceptsTab = false;
+            this.soyad_txtbox.AnimationSpeed = 200;
+            this.soyad_txtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.soyad_txtbox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.soyad_txtbox.BackColor = System.Drawing.Color.Transparent;
+            this.soyad_txtbox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("soyad_txtbox.BackgroundImage")));
+            this.soyad_txtbox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.soyad_txtbox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.soyad_txtbox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.soyad_txtbox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.soyad_txtbox.BorderRadius = 1;
+            this.soyad_txtbox.BorderThickness = 1;
+            this.soyad_txtbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.soyad_txtbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.soyad_txtbox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.soyad_txtbox.DefaultText = "";
+            this.soyad_txtbox.FillColor = System.Drawing.Color.White;
+            this.soyad_txtbox.HideSelection = true;
+            this.soyad_txtbox.IconLeft = null;
+            this.soyad_txtbox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.soyad_txtbox.IconPadding = 10;
+            this.soyad_txtbox.IconRight = null;
+            this.soyad_txtbox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.soyad_txtbox.Lines = new string[0];
+            this.soyad_txtbox.Location = new System.Drawing.Point(65, 92);
+            this.soyad_txtbox.MaxLength = 32767;
+            this.soyad_txtbox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.soyad_txtbox.Modified = false;
+            this.soyad_txtbox.Multiline = false;
+            this.soyad_txtbox.Name = "soyad_txtbox";
+            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties9.FillColor = System.Drawing.Color.Empty;
+            stateProperties9.ForeColor = System.Drawing.Color.Empty;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.soyad_txtbox.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.soyad_txtbox.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties11.FillColor = System.Drawing.Color.Empty;
+            stateProperties11.ForeColor = System.Drawing.Color.Empty;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.soyad_txtbox.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.Silver;
+            stateProperties12.FillColor = System.Drawing.Color.White;
+            stateProperties12.ForeColor = System.Drawing.Color.Empty;
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.soyad_txtbox.OnIdleState = stateProperties12;
+            this.soyad_txtbox.Padding = new System.Windows.Forms.Padding(3);
+            this.soyad_txtbox.PasswordChar = '\0';
+            this.soyad_txtbox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.soyad_txtbox.PlaceholderText = "Soyad";
+            this.soyad_txtbox.ReadOnly = false;
+            this.soyad_txtbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.soyad_txtbox.SelectedText = "";
+            this.soyad_txtbox.SelectionLength = 0;
+            this.soyad_txtbox.SelectionStart = 0;
+            this.soyad_txtbox.ShortcutsEnabled = true;
+            this.soyad_txtbox.Size = new System.Drawing.Size(164, 37);
+            this.soyad_txtbox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.soyad_txtbox.TabIndex = 11;
+            this.soyad_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.soyad_txtbox.TextMarginBottom = 0;
+            this.soyad_txtbox.TextMarginLeft = 3;
+            this.soyad_txtbox.TextMarginTop = 0;
+            this.soyad_txtbox.TextPlaceholder = "Soyad";
+            this.soyad_txtbox.UseSystemPasswordChar = false;
+            this.soyad_txtbox.WordWrap = true;
+            // 
+            // ad_txtbox
+            // 
+            this.ad_txtbox.AcceptsReturn = false;
+            this.ad_txtbox.AcceptsTab = false;
+            this.ad_txtbox.AnimationSpeed = 200;
+            this.ad_txtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.ad_txtbox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.ad_txtbox.BackColor = System.Drawing.Color.Transparent;
+            this.ad_txtbox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ad_txtbox.BackgroundImage")));
+            this.ad_txtbox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.ad_txtbox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ad_txtbox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.ad_txtbox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.ad_txtbox.BorderRadius = 1;
+            this.ad_txtbox.BorderThickness = 1;
+            this.ad_txtbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.ad_txtbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ad_txtbox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.ad_txtbox.DefaultText = "";
+            this.ad_txtbox.FillColor = System.Drawing.Color.White;
+            this.ad_txtbox.HideSelection = true;
+            this.ad_txtbox.IconLeft = null;
+            this.ad_txtbox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.ad_txtbox.IconPadding = 10;
+            this.ad_txtbox.IconRight = null;
+            this.ad_txtbox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.ad_txtbox.Lines = new string[0];
+            this.ad_txtbox.Location = new System.Drawing.Point(65, 34);
+            this.ad_txtbox.MaxLength = 32767;
+            this.ad_txtbox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.ad_txtbox.Modified = false;
+            this.ad_txtbox.Multiline = false;
+            this.ad_txtbox.Name = "ad_txtbox";
+            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties13.FillColor = System.Drawing.Color.Empty;
+            stateProperties13.ForeColor = System.Drawing.Color.Empty;
+            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.ad_txtbox.OnActiveState = stateProperties13;
+            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.ad_txtbox.OnDisabledState = stateProperties14;
+            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties15.FillColor = System.Drawing.Color.Empty;
+            stateProperties15.ForeColor = System.Drawing.Color.Empty;
+            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.ad_txtbox.OnHoverState = stateProperties15;
+            stateProperties16.BorderColor = System.Drawing.Color.Silver;
+            stateProperties16.FillColor = System.Drawing.Color.White;
+            stateProperties16.ForeColor = System.Drawing.Color.Empty;
+            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.ad_txtbox.OnIdleState = stateProperties16;
+            this.ad_txtbox.Padding = new System.Windows.Forms.Padding(3);
+            this.ad_txtbox.PasswordChar = '\0';
+            this.ad_txtbox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.ad_txtbox.PlaceholderText = "Ad";
+            this.ad_txtbox.ReadOnly = false;
+            this.ad_txtbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.ad_txtbox.SelectedText = "";
+            this.ad_txtbox.SelectionLength = 0;
+            this.ad_txtbox.SelectionStart = 0;
+            this.ad_txtbox.ShortcutsEnabled = true;
+            this.ad_txtbox.Size = new System.Drawing.Size(164, 37);
+            this.ad_txtbox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.ad_txtbox.TabIndex = 10;
+            this.ad_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ad_txtbox.TextMarginBottom = 0;
+            this.ad_txtbox.TextMarginLeft = 3;
+            this.ad_txtbox.TextMarginTop = 0;
+            this.ad_txtbox.TextPlaceholder = "Ad";
+            this.ad_txtbox.UseSystemPasswordChar = false;
+            this.ad_txtbox.WordWrap = true;
+            // 
+            // ekle_btn
+            // 
+            this.ekle_btn.AllowAnimations = true;
+            this.ekle_btn.AllowMouseEffects = true;
+            this.ekle_btn.AllowToggling = false;
+            this.ekle_btn.AnimationSpeed = 200;
+            this.ekle_btn.AutoGenerateColors = false;
+            this.ekle_btn.AutoRoundBorders = false;
+            this.ekle_btn.AutoSizeLeftIcon = true;
+            this.ekle_btn.AutoSizeRightIcon = true;
+            this.ekle_btn.BackColor = System.Drawing.Color.Transparent;
+            this.ekle_btn.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.ekle_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ekle_btn.BackgroundImage")));
+            this.ekle_btn.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.ekle_btn.ButtonText = "Ekle";
+            this.ekle_btn.ButtonTextMarginLeft = 0;
+            this.ekle_btn.ColorContrastOnClick = 45;
+            this.ekle_btn.ColorContrastOnHover = 45;
+            this.ekle_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.ekle_btn.CustomizableEdges = borderEdges1;
+            this.ekle_btn.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.ekle_btn.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.ekle_btn.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ekle_btn.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.ekle_btn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.ekle_btn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ekle_btn.ForeColor = System.Drawing.Color.White;
+            this.ekle_btn.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ekle_btn.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.ekle_btn.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.ekle_btn.IconMarginLeft = 11;
+            this.ekle_btn.IconPadding = 10;
+            this.ekle_btn.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ekle_btn.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.ekle_btn.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.ekle_btn.IconSize = 25;
+            this.ekle_btn.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.ekle_btn.IdleBorderRadius = 1;
+            this.ekle_btn.IdleBorderThickness = 1;
+            this.ekle_btn.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.ekle_btn.IdleIconLeftImage = null;
+            this.ekle_btn.IdleIconRightImage = null;
+            this.ekle_btn.IndicateFocus = false;
+            this.ekle_btn.Location = new System.Drawing.Point(317, 266);
+            this.ekle_btn.Name = "ekle_btn";
+            this.ekle_btn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.ekle_btn.OnDisabledState.BorderRadius = 1;
+            this.ekle_btn.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.ekle_btn.OnDisabledState.BorderThickness = 1;
+            this.ekle_btn.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ekle_btn.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.ekle_btn.OnDisabledState.IconLeftImage = null;
+            this.ekle_btn.OnDisabledState.IconRightImage = null;
+            this.ekle_btn.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.ekle_btn.onHoverState.BorderRadius = 1;
+            this.ekle_btn.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.ekle_btn.onHoverState.BorderThickness = 1;
+            this.ekle_btn.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.ekle_btn.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.ekle_btn.onHoverState.IconLeftImage = null;
+            this.ekle_btn.onHoverState.IconRightImage = null;
+            this.ekle_btn.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.ekle_btn.OnIdleState.BorderRadius = 1;
+            this.ekle_btn.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.ekle_btn.OnIdleState.BorderThickness = 1;
+            this.ekle_btn.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.ekle_btn.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.ekle_btn.OnIdleState.IconLeftImage = null;
+            this.ekle_btn.OnIdleState.IconRightImage = null;
+            this.ekle_btn.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.ekle_btn.OnPressedState.BorderRadius = 1;
+            this.ekle_btn.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.ekle_btn.OnPressedState.BorderThickness = 1;
+            this.ekle_btn.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.ekle_btn.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.ekle_btn.OnPressedState.IconLeftImage = null;
+            this.ekle_btn.OnPressedState.IconRightImage = null;
+            this.ekle_btn.Size = new System.Drawing.Size(125, 37);
+            this.ekle_btn.TabIndex = 9;
+            this.ekle_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ekle_btn.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ekle_btn.TextMarginLeft = 0;
+            this.ekle_btn.TextPadding = new System.Windows.Forms.Padding(0);
+            this.ekle_btn.UseDefaultRadiusAndThickness = true;
+            this.ekle_btn.Click += new System.EventHandler(this.ekle_btn_Click);
+            // 
+            // aiguncombobox
+            // 
+            this.aiguncombobox.BackColor = System.Drawing.Color.Transparent;
+            this.aiguncombobox.BackgroundColor = System.Drawing.Color.White;
+            this.aiguncombobox.BorderColor = System.Drawing.Color.Silver;
+            this.aiguncombobox.BorderRadius = 1;
+            this.aiguncombobox.Color = System.Drawing.Color.Silver;
+            this.aiguncombobox.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.aiguncombobox.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.aiguncombobox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.aiguncombobox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.aiguncombobox.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.aiguncombobox.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.aiguncombobox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.aiguncombobox.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.aiguncombobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.aiguncombobox.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.aiguncombobox.FillDropDown = true;
+            this.aiguncombobox.FillIndicator = false;
+            this.aiguncombobox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.aiguncombobox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.aiguncombobox.ForeColor = System.Drawing.Color.Black;
+            this.aiguncombobox.FormattingEnabled = true;
+            this.aiguncombobox.Icon = null;
+            this.aiguncombobox.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.aiguncombobox.IndicatorColor = System.Drawing.Color.Gray;
+            this.aiguncombobox.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.aiguncombobox.ItemBackColor = System.Drawing.Color.White;
+            this.aiguncombobox.ItemBorderColor = System.Drawing.Color.White;
+            this.aiguncombobox.ItemForeColor = System.Drawing.Color.Black;
+            this.aiguncombobox.ItemHeight = 26;
+            this.aiguncombobox.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.aiguncombobox.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.aiguncombobox.ItemTopMargin = 3;
+            this.aiguncombobox.Location = new System.Drawing.Point(307, 201);
+            this.aiguncombobox.Name = "aiguncombobox";
+            this.aiguncombobox.Size = new System.Drawing.Size(145, 32);
+            this.aiguncombobox.TabIndex = 20;
+            this.aiguncombobox.Text = "Akademik İzin Günü";
+            this.aiguncombobox.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.aiguncombobox.TextLeftMargin = 5;
+            // 
+            // idtxtbox
+            // 
+            this.idtxtbox.AcceptsReturn = false;
+            this.idtxtbox.AcceptsTab = false;
+            this.idtxtbox.AnimationSpeed = 200;
+            this.idtxtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.idtxtbox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.idtxtbox.BackColor = System.Drawing.Color.Transparent;
+            this.idtxtbox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("idtxtbox.BackgroundImage")));
+            this.idtxtbox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.idtxtbox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.idtxtbox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.idtxtbox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.idtxtbox.BorderRadius = 1;
+            this.idtxtbox.BorderThickness = 1;
+            this.idtxtbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.idtxtbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.idtxtbox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.idtxtbox.DefaultText = "";
+            this.idtxtbox.FillColor = System.Drawing.Color.White;
+            this.idtxtbox.HideSelection = true;
+            this.idtxtbox.IconLeft = null;
+            this.idtxtbox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.idtxtbox.IconPadding = 10;
+            this.idtxtbox.IconRight = null;
+            this.idtxtbox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.idtxtbox.Lines = new string[0];
+            this.idtxtbox.Location = new System.Drawing.Point(17, 34);
+            this.idtxtbox.MaxLength = 32767;
+            this.idtxtbox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.idtxtbox.Modified = false;
+            this.idtxtbox.Multiline = false;
+            this.idtxtbox.Name = "idtxtbox";
+            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties17.FillColor = System.Drawing.Color.Empty;
+            stateProperties17.ForeColor = System.Drawing.Color.Empty;
+            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.idtxtbox.OnActiveState = stateProperties17;
+            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.idtxtbox.OnDisabledState = stateProperties18;
+            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties19.FillColor = System.Drawing.Color.Empty;
+            stateProperties19.ForeColor = System.Drawing.Color.Empty;
+            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.idtxtbox.OnHoverState = stateProperties19;
+            stateProperties20.BorderColor = System.Drawing.Color.Silver;
+            stateProperties20.FillColor = System.Drawing.Color.White;
+            stateProperties20.ForeColor = System.Drawing.Color.Empty;
+            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.idtxtbox.OnIdleState = stateProperties20;
+            this.idtxtbox.Padding = new System.Windows.Forms.Padding(3);
+            this.idtxtbox.PasswordChar = '\0';
+            this.idtxtbox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.idtxtbox.PlaceholderText = "Id";
+            this.idtxtbox.ReadOnly = false;
+            this.idtxtbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.idtxtbox.SelectedText = "";
+            this.idtxtbox.SelectionLength = 0;
+            this.idtxtbox.SelectionStart = 0;
+            this.idtxtbox.ShortcutsEnabled = true;
+            this.idtxtbox.Size = new System.Drawing.Size(42, 37);
+            this.idtxtbox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.idtxtbox.TabIndex = 21;
+            this.idtxtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.idtxtbox.TextMarginBottom = 0;
+            this.idtxtbox.TextMarginLeft = 3;
+            this.idtxtbox.TextMarginTop = 0;
+            this.idtxtbox.TextPlaceholder = "Id";
+            this.idtxtbox.UseSystemPasswordChar = false;
+            this.idtxtbox.WordWrap = true;
+            // 
+            // isebaslangic
+            // 
+            this.isebaslangic.BackColor = System.Drawing.Color.Transparent;
+            this.isebaslangic.BorderRadius = 1;
+            this.isebaslangic.Color = System.Drawing.Color.Silver;
+            this.isebaslangic.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.isebaslangic.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.isebaslangic.DisabledColor = System.Drawing.Color.Gray;
+            this.isebaslangic.DisplayWeekNumbers = false;
+            this.isebaslangic.DPHeight = 0;
+            this.isebaslangic.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.isebaslangic.FillDatePicker = false;
+            this.isebaslangic.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.isebaslangic.ForeColor = System.Drawing.Color.Black;
+            this.isebaslangic.Icon = ((System.Drawing.Image)(resources.GetObject("isebaslangic.Icon")));
+            this.isebaslangic.IconColor = System.Drawing.Color.Gray;
+            this.isebaslangic.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.isebaslangic.LeftTextMargin = 5;
+            this.isebaslangic.Location = new System.Drawing.Point(65, 266);
+            this.isebaslangic.MinimumSize = new System.Drawing.Size(4, 32);
+            this.isebaslangic.Name = "isebaslangic";
+            this.isebaslangic.Size = new System.Drawing.Size(164, 32);
+            this.isebaslangic.TabIndex = 24;
+            this.isebaslangic.Value = new System.DateTime(2022, 12, 29, 18, 58, 0, 0);
+            // 
+            // EkleUC
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.isebaslangic);
+            this.Controls.Add(this.idtxtbox);
+            this.Controls.Add(this.aiguncombobox);
+            this.Controls.Add(this.bunifuPictureBox1);
+            this.Controls.Add(this.bolumcombobox);
+            this.Controls.Add(this.ekle_btn);
+            this.Controls.Add(this.mailadresi_txtbox);
+            this.Controls.Add(this.telno_txtbox);
+            this.Controls.Add(this.soyad_txtbox);
+            this.Controls.Add(this.ad_txtbox);
+            this.Name = "EkleUC";
+            this.Size = new System.Drawing.Size(497, 351);
+            this.Load += new System.EventHandler(this.EkleUC_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
+        private Bunifu.UI.WinForms.BunifuDropdown bolumcombobox;
+        private Bunifu.UI.WinForms.BunifuTextBox mailadresi_txtbox;
+        private Bunifu.UI.WinForms.BunifuTextBox telno_txtbox;
+        private Bunifu.UI.WinForms.BunifuTextBox soyad_txtbox;
+        private Bunifu.UI.WinForms.BunifuTextBox ad_txtbox;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton ekle_btn;
+        private Bunifu.UI.WinForms.BunifuDropdown aiguncombobox;
+        private Bunifu.UI.WinForms.BunifuTextBox idtxtbox;
+        private Bunifu.UI.WinForms.BunifuDatePicker isebaslangic;
+    }
+}
